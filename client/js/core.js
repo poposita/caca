@@ -3896,8 +3896,6 @@ var announcementSent = false;
         }, !self.UINoInit) {
         var ee = "https:" == self.location.protocol;
         if (ee && -1 == self.location.search.indexOf("fb")) {
-            self.location.href = "http://thexazz.com/";
-        } else {
             var cv;
             var context;
             var cnv;
