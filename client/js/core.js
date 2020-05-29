@@ -2890,12 +2890,12 @@ var announcementSent = false;
         if (matchEnd) {
             backoff = 500;
         }
-        console.log("Server Restart!");
-        serverRestart();
-        setTimeout(function() {
+        //console.log("Server Restart!");
+        //serverRestart();
+        /*setTimeout(function() {
             connect(currentIP);
-        }, 100);
-        UI.play();
+        }, 100);*/
+        //UI.play();
         setTimeout(send, backoff);
         backoff *= 2;
     }
